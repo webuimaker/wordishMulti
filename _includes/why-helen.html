@@ -1,0 +1,22 @@
+<!-- ================ Why Helen Section Starts================ -->
+<div class="container-fluid whysection">
+	<div class="container">
+		<h2>{{ site.data.[page.lang].why-helen.title}}</h2>
+		<div class="row">
+			{% for features in {{site.data.[page.lang].why-helen.fetures}} %}
+		
+			<div class="col-xs-12 col-sm-4 col-md-4 newcol">
+				<figure><img src="{{site.baseurl}}{{features.image}}" alt=""></figure>
+				<h3>{{features.heading}}</h3>
+				<p>{{features.desc}}</p>
+			</div>
+			{% endfor %}
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 text-center"><a href="{{ site.data.[page.lang].why-helen.btnUrl}}" class="btn btn-green mTop25">
+			{{site.data.[page.lang].why-helen.btnText}}</a></div>
+		</div>
+	</div>
+</div>

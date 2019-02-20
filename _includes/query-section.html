@@ -1,0 +1,37 @@
+<!-- ================ Query Section ================ -->
+<div class="container-fluid querysection">
+   <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 headingsection">
+				<h2>{{site.data.[page.lang].queries-form.title}}</h2>
+				<p>{{site.data.[page.lang].queries-form.desc}}</p>
+			</div>
+		</div>
+		<div class="queryform">
+			<form action="https://formspree.io/{{site.email}}" method="POST">
+				<div class="row">
+					{% for placeholder in {{site.data.[page.lang].queries-form.feilds}} %}
+				
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<input id="" name="textinput" placeholder="{{placeholder.placeholder}}" class="form-control" required="{{placeholder.required}}" type="{{placeholder.type}}">
+					</div>
+					{% endfor %}
+					
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<textarea class="form-control" rows="5" placeholder="{{site.data.[page.lang].queries-form.textArea}}"></textarea>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<button type="submit" class="btn btn-info">{{site.data.[page.lang].queries-form.btnText}}</button>
+					</div>
+				</div>
+			</form>
+		</div>
+   </div>
+</div>
+<!--
+<form action="https://formspree.io/your@email.com" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
+-->

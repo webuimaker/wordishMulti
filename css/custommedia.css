@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+	.navright li a{font-size:16px;}
+	.footlast li{padding:0px 2px;}
+}
+
+@media screen and (max-width:1023px) {
+.selectlang{padding-top:50px;}
+.helensection{padding:70px 15px;}
+.helensection .leftsection{padding-top:0;}
+.teamlist .teamcol figure img{width:100%;}
+.awardsection li{width:30%;}
+.teamsection h2::after, .casesection h2::after{left:300px;}
+.whatsnewsection h2::after{left:315px;}
+.footmdl{margin-bottom:40px;}
+.footer{padding:50px 15px;}
+
+#quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+
+.js #menu {
+  display:none;
+ }
+ 
+ .js .slicknav_menu {
+  display:block;
+ }
+ 
+ .slicknav_btn { background: #2785e7 url(../images/nav-button.png) no-repeat center; position: absolute; right: 30px; top: 10px; display: block; cursor: pointer; overflow: hidden; height: 30px; width: 40px; z-index: 999999; border-radius: 3px !important; }
+
+.slicknav_btn.slicknav_open { background: #2785e7 url(../images/close-nav-button.png) no-repeat center;/* Close icon */ color: #fff; z-index: 999999; }
+
+.slicknav_menutxt { display: none; }
+ .slicknav_parent.slicknav_open ul li a{padding-left:25px; color:#2785e7;}
+ .newscol img, .newsright img{width:100%;}
+}
+
+
+@media screen and (max-width: 767px) {
+.styled-select{width:100%;}
+.styled-select select{width:100%;}
+.whatsnewsection h2::after, .teamsection h2::after, .headingsection h2::after, .casesection h2::after, .awardsection h2::after{display:none;}	
+.whatsnewsection{padding:20px 15px;}
+.bannertxt h1, .helensection .leftsection h1, .newstxt h1{font-size:26px;}
+.newspage h1{font-size:24px;}
+.whysection h2{font-size:26px;}
+.toprow .casecol h4{font-size:26px;}
+.toprow .casecol{padding:20px 10px;}
+.teamsection{padding:35px 0px;}
+.teamsection h2{font-size:26px; margin:0;}
+.teamtop p{margin:0; font-size:16px;}
+.newcol{padding-bottom:20px;}
+.whysection{padding:35px 0px;}
+.casesection{padding:35px 0px;}
+.casesection h2, .whatsnewsection h2{margin-top:0; font-size:26px;}
+.helensection .leftsection p{font-size:16px;}
+.helensection .leftsection{padding-bottom:30px;}
+.helensection{padding:20px 15px;}
+.bookleft h3{font-size:26px; text-align:center;}
+.bookleft p{font-size:18px; text-align:center;}
+.awardsection li{width:100%; margin-bottom:20px;}
+.bookright{padding-top:20px;}
+.selectlang{text-align:center;}
+.topheader .logo{text-align:center;}
+.col-centered{display:inherit; float:none; margin-bottom:25px;}
+.colfirst::after, .colsec::after, .colthird::after, .colfour::after{display:none;}
+.col-centered figure img, .whatsnewsection figure img{width:100%;}	
+.mediasection{padding:35px 0px;}
+.mediascroll{margin:35px 0px;}
+.booksection, .querysection{padding:35px 0px 35px;}
+.awardsection{padding:35px 0px 30px;}
+.awardsection h2, .headingsection h2{font-size:26px;}	
+.footer{text-align:center;}	
+.footleft{margin-bottom:20px;}
+
+#quote-carousel .carousel-indicators {
+        bottom: -37px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        width:50px; height:2px; border:0; margin:0;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+       width:50px; height:2px; border:0; margin:0;
+    }
+
+	
+  .js #menu {
+  display:none;
+ }
+ 
+ .js .slicknav_menu {
+  display:block;
+ }
+ 
+ .slicknav_btn { background: #2785e7 url(../images/nav-button.png) no-repeat center; position: absolute; right: 30px; top: 10px; display: block; cursor: pointer; overflow: hidden; height: 30px; width: 40px; z-index: 999999; border-radius: 3px !important; }
+
+.slicknav_btn.slicknav_open { background: #2785e7 url(../images/close-nav-button.png) no-repeat center;/* Close icon */ color: #fff; z-index: 999999; }
+
+.slicknav_menutxt { display: none; }
+ .slicknav_parent.slicknav_open ul li a{padding-left:25px; color:#2785e7;}
+ #quote-carousel .carousel-control.left , #quote-carouselnew .carousel-control.left{display:none;}
+ #quote-carousel .carousel-control.right, #quote-carouselnew .carousel-control.right{display:none;}
+ #quote-carousel{padding:0;}
+ 
+ #quote-carouselnew{text-align:center;}
+ 
+ .accordionlist .panel-title{font-size:18px; padding:15px 5px;}
+ .accordionsection h5, .accordionsection h3{padding:0px 15px;}
+ 
+ .newsbox .newsleft{padding:20px 30px;}
+ .newsbox .newsleft h1{font-size:22px;}
+ .newspage{padding:20px 0px 20px;}
+ .newscol img{width:100%;}
+ .blogarea .bloginnercontent{padding:15px;}
+}
+
+
+@media screen and (max-width:479px){
+
+}

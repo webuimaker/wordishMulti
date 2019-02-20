@@ -1,0 +1,65 @@
+
+<!-- ================ Header Starts================ -->
+<header class="container-fluid banner rel">
+   <div class="row">
+		{% assign curPage = page.ref %}
+		{% if  site.data.[page.lang].banner.banners.[curPage].video %}
+		   <div class="bannerimg">
+			 <div class="index-video-wrapper"> 
+				<video loop autoplay muted overlay="true" id="index-video">
+					<source src="{{site.baseurl}}{{ site.data.[page.lang].banner.banners.[curPage].video}}.webm" type='video/webm'></source> 
+					<source src="{{site.baseurl}}{{ site.data.[page.lang].banner.banners.[curPage].video}}.ogv" type="video/ogg" > </source> 
+					<source src="{{site.baseurl}}{{ site.data.[page.lang].banner.banners.[curPage].video}}.mp4" type='video/mp4'> </source> 
+				</video>
+			</div>
+		   </div>
+		{% else %}
+		   <div class="bannerimg newsbg">
+			 <figure><img src="{{ site.baseurl}}{{site.data.[page.lang].banner.banners.[curPage].image }}" alt=""></figure>
+		   </div>
+		{% endif %}
+	   
+	   
+	   
+	   
+       <div class="bannercontent">
+       	  <div class="bannermain">
+          	 <div class="topheader">
+                    <div class="col-xs-12 col-sm-2 col-md-2 logo"><a href="{{ page.url | relative_url }}"><img src="{{site.baseurl}}/images/logo.png" alt=""></a></div>
+                    <nav class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+					    <div class="selectlang">
+							<div class="input-prepend input-append">
+								<div class="btn-group">
+									<button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+										<span class="selectedLan"> </span>
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu dropdown-lang" id="curlang">
+										{% include selector.html %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="navright">
+							<ul id="menu">
+								  {% for menu in site.data.menu.t[page.lang] %}
+									<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+								  {% endfor %}
+							</ul>
+						</div>
+                    </nav>
+             </div>
+          
+             <div class="clearfix"></div>
+             <div class="bannertxt">		 
+             	<h1>{{ site.data.[page.lang].banner.banners.[curPage].text }}</h1>
+				{% if site.data.[page.lang].banner.banners.[curPage].Subtext %}
+					<h3>{{ site.data.[page.lang].banner.banners.[curPage].Subtext }}</h3>
+				{% endif %}
+             </div>	
+             
+       </div>  
+       </div>
+   </div>  
+	<div class="overlay"></div>
+</header>

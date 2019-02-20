@@ -1,0 +1,87 @@
+<div class="container-fluid teamsection teampagelist">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 careertpsection">
+				<h1>{{site.data.[page.lang].career.title}}</h1>
+				<div class="row">
+					<div class="col-xs-12 {% if site.data.[page.lang].career.desc-right %} col-sm-6 col-md-6 {% endif %}">
+						{{site.data.[page.lang].career.desc-left}}
+					</div>
+					{% if site.data.[page.lang].career.desc-right %}
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							{{site.data.[page.lang].career.desc-right}}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 accordionsection">
+					<h5>Worldish</h5>
+					<h3>Current Openings</h3>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 accordionlist">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						{% for openings in site.data.[page.lang].career.currentOpenings %}
+							
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="{{ openings.heading | remove: " " | remove: "-" | downcase}}">
+									 <h4 class="panel-title">
+								<a class="{% if forloop.first %} {%else%}collapsed{%endif%}" data-toggle="collapse" data-parent="#accordion" href="#{{ openings.heading | remove: " " | remove: "-" | downcase}}-opening" aria-expanded="false" aria-controls="collapseTwo">{{openings.heading}}</a>
+							  </h4>
+
+								</div>
+								<div id="{{ openings.heading | remove: " " | remove: "-" | downcase}}-opening" class="panel-collapse collapse {% if forloop.first %} in {%endif%}" role="tabpanel" aria-labelledby="{{ openings.heading | remove: " " | remove: "-" | downcase}}">
+									<div class="panel-body">
+										{% if openings.location %}
+											<h3>Location</h3>
+											<ul>
+											{% for locations in openings.location %}												
+												<li><i class="fa fa-chevron-circle-right"></i> {{locations}}</li>
+											{% endfor %}												
+											</ul>
+										{% endif %}
+										{% if openings.requirements %}
+											<h3>Requirements</h3>
+											<ul>
+											{% for reqs in openings.requirements %}												
+												<li><i class="fa fa-chevron-circle-right"></i> {{reqs}}</li>
+											{% endfor %}												
+											</ul>
+										{% endif %}
+										{% if openings.bonusPoints %}
+											<h3>Bonus points if you have these</h3>
+											<ul>
+											{% for bonus in openings.bonusPoints %}												
+												<li><i class="fa fa-chevron-circle-right"></i> {{bonus}}</li>
+											{% endfor %}												
+											</ul>
+										{% endif %}
+										{% if openings.expect %}
+											<h3>What can you expect?</h3>
+											<ul>
+											{% for expects in openings.expect %}												
+												<li><i class="fa fa-chevron-circle-right"></i> {{expects}}</li>
+											{% endfor %}												
+											</ul>
+										{% endif %}
+										{% if openings.otherDetails %}
+											<h3>Others Details:</h3>
+											<p>{{openings.otherDetails}}</p>
+										{% endif %}
+										
+										
+									</div>
+								</div>
+							</div>
+							
+							
+							
+						{% endfor %}
+		
+</div>
+				</div>
+			</div>
+		
+			</div>
+		</div>
+	</div>

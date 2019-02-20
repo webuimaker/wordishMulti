@@ -1,0 +1,12 @@
+title: "Testimonials"
+desc: "Don't take our word. See our testimonials"
+testimonials:
+  - image: "/images/testiimg.jpg"
+    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+    logo: "/images/locationicon.png"
+  - image: "/images/testiimg.jpg"
+    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+    logo: "/images/locationicon.png"
+  - image: "/images/testiimg.jpg"
+    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+    logo: "/images/locationicon.png"

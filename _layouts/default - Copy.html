@@ -1,0 +1,46 @@
+{% include head.html %}
+{% include header.html %}
+
+{{ content }}
+
+
+<article class="post">
+
+  <header class="post-header">
+
+    <div>
+    <h4>Pages:
+    {% include menu.html %}   
+	
+    </h4>
+	
+	
+	{%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>  
+	<p>{{default_paths}}</p>
+	<p>{{page_paths}}</p>
+	<p>{{titles_size}}</p>
+	
+    </div>
+    <br>
+    <div>
+    Language:
+    {% include selector.html %}
+    </div>
+
+    <br>
+    <br>
+    <div>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+{% include footer.html %}

@@ -1,0 +1,36 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<title>Worldish</title>
+<!-- Bootstrap core CSS -->
+    <link href="{{site.baseurl}}{{'/css/bootstrap.min.css' | relative_url}}" rel="stylesheet">
+    
+    <!-- Custom Css -->
+    <link href="{{site.baseurl}}{{'/css/custom.css' | relative_url}}" rel="stylesheet">
+    <link  href="{{site.baseurl}}{{'/css/custommedia.css' | relative_url}}" rel="stylesheet">
+    <link  href="{{site.baseurl}}{{'/css/font-awesome.min.css' | relative_url}}" rel="stylesheet">
+    
+    <!-- Slick Nav -->
+	 <link  href="{{site.baseurl}}{{'SlickNav/slicknav.css' | relative_url}}" rel="stylesheet">
+	 
+	 
+	<!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="{{site.baseurl}}/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/owlcarousel/owl.theme.default.min.css"> 
+	
+	<!-- Fonts Family -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+	
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	{%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+   <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
+	{%- assign cir_lang = page.lang -%}
+</head>

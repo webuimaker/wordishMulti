@@ -1,0 +1,116 @@
+
+
+<!-- ================ Footer Section ================ -->
+<footer class="container footer">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-3 footleft">
+			<figure><img src="{{site.baseurl}}/images/footlogo.png" alt=""></figure>
+			<p>{{site.data.[page.lang].footer.info}}</p>
+		</div>
+		
+		<div class="col-xs-12 col-sm-6 col-md-3 footmdl">
+			<h3>Any Question?</h3>
+			<h5>{{site.tel}}</h5>
+			<p><a href="mailto:{{site.email}}">mail@worldish.com</a></p>
+			
+		</div>
+		
+		<div class="col-xs-12 col-sm-6 col-md-3 footmdl">
+			<h3>Contact Us</h3>
+			<div class="mdlfootxt">
+				<p>{{site.address}}</p>
+				
+			</div>
+		</div>
+		
+		<div class="col-xs-12 col-sm-6 col-md-3 footlast">
+			<h3>Connect with us</h3>
+			<ul>
+				{% if  site.fbUrl != " " %}
+					<li><a href="{{site.fbUrl}}"><img src="{{site.baseurl}}{{site.fbIcon}}" alt=""></a></li>
+				{% endif %}
+				{% if  site.instagramUrl != " "  %}
+					<li><a href="{{site.instagramUrl}}"><img src="{{site.baseurl}}{{site.instagramIcon}}" alt=""></a></li>
+				{% endif %}
+				{% if  site.youtubeUrl != " "  %}
+					<li><a href="{{site.youtubeUrl}}"><img src="{{site.baseurl}}{{site.youtubeIcon}}" alt=""></a></li>
+				{% endif %}
+				{% if  site.twitterUrl != " "  %}
+					<li><a href="{{site.twitterUrl}}"><img src="{{site.baseurl}}{{site.twitterIcon}}" alt=""></a></li>
+				{% endif %}
+				
+			</ul>
+		</div>
+	</div>
+</footer>
+<div id="back-top"><a href="#top"><span><img src="{{site.baseurl}}/images/arrowtop.png" alt=""></span></a></div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap Js -->
+<script src="{{site.baseurl}}{{'/js/bootstrap.min.js' | relative_url}}"></script>
+
+<!-- Slick Nav -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script src="{{site.baseurl}}{{'/SlickNav/jquery.slicknav.js' | relative_url}} "></script>
+<!-- Owl Carousel -->
+<script src="{{site.baseurl}}/owlcarousel/owl.carousel.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+  $('#menu').slicknav();
+  
+	var selectedLng = $('ul#curlang').find('li a.active').data('lang');
+	$('.selectedLan').text(selectedLng);
+	
+    var owl = $('.owl-carousel');
+              owl.owlCarousel({
+			  
+                items: 4,
+                loop: true,
+                margin: 10,
+                autoplay: 3000,				   
+				dots: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true, 
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              });
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              });
+			  
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 500) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+  
+  
+});
+</script>
+
+</body>
+</html>

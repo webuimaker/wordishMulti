@@ -1,0 +1,22 @@
+<!-- ================ Case Section Starts================ -->
+<div class="container-fluid casesection">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12"><h2>{{ site.data.[page.lang].cases.title}}</h2></div>
+		</div>
+		<div class="row toprow row-centered">
+			{% for features in {{site.data.[page.lang].cases.fetures}} %}
+				<div class="col-sm-6 col-md-4 col-centered">
+					<div class="colfirst">
+						<figure><img src="{{site.baseurl}}{{features.image}}" alt=""></figure>
+						<div class="casecol">
+							<h4>{{features.heading}}</h4>
+							<p>{{features.desc}}</p>
+							<p><a href="{{features.btnUrl}}">{{features.btnText}}</a></p>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

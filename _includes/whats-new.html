@@ -1,0 +1,47 @@
+<!-- ================ WhatsNew Section ================ -->
+<div class="container whatsnewsection">
+     <div class="row">
+	    <div class="col-xs-12 col-sm-12 col-md-12 whatstop">
+			<h2>{{site.data.[page.lang].whats-new.title}}</h2>
+			<p>{{site.data.[page.lang].whats-new.desc}}</p>
+		</div>
+	 </div>
+	 
+	<div class="row">
+	
+	<!--
+{% assign posts=site.posts | where:"lang", "en" %}
+{% for default in posts %}
+  {% assign translation = site.posts | where:"ref", default.ref | where:"lang", "fr" %}
+  {% if translation[0] %}
+    <li><a href="{{ translation[0].url }}">{{ translation[0].title }}</a></li>
+  {% else %}
+    <li><a href="{{ default.url }}">{{ default.title }}</a> [en] </li>
+  {% endif %}
+{% endfor %}
+	-->
+    
+	{% assign posts=site.posts | where:"lang", page.lang %}
+	{% for default in posts %}
+	  {% assign translation = site.posts | where:"ref", default.ref | where:"lang", page.lang %}
+	  {% if translation[0] %}
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<figure><img src="{{site.baseurl}}{{translation[0].mainImage}}" alt="{{ translation[0].title }}"></figure>
+			<div class="blogtitle">
+				<ul>
+					<li><span><img src="{{site.baseurl}}/images/icon4.png" alt=""></span> {{ translation[0].author }} at</li>
+					<li><span><img src="{{site.baseurl}}/images/icon5.png" alt=""></span> {{ translation[0].date | date: "%b %d, %Y" }}</li>
+				</ul>
+				<h3>{{ translation[0].title }}</h3>
+				<p>{{ translation[0]..excerpt | truncate: 130}}</p>
+				<p><a href="{{ translation[0].url }}">Read More...</a></p>
+			</div>
+		</div>
+	  {% else %}
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<a href="{{ default.url }}">{{ default.title }}</a> [en] 
+		</div>
+	  {% endif %}
+	{% endfor %}
+	 </div>
+</div>

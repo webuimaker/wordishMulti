@@ -1,0 +1,36 @@
+<!-- ================ Team Section Area ================ -->
+<div class="container-fluid teamsection teampagelist">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 teamtop">
+				<h2>{{site.data.[page.lang].team.title}}</h2>
+				<p>{{site.data.[page.lang].team.desc}}</p>
+			</div>
+		</div>
+		
+		<div class="teamlist">
+			<div class="row">
+				{% for teamList in {{site.data.[page.lang].team.teams}} %}
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="teamcol">
+						<figure><img src="{{site.baseurl}}{{teamList.image}}" alt=""></figure>
+						<div class="teamcontent">
+							<h3>{{teamList.name}}</h3>
+							<h6>{{teamList.pos}}</h6>
+							<p><a href="mailto:{{teamList.image}}">{{teamList.email}}</a></p>
+							<p>+{{teamList.phone}}</p>
+							<ul>
+								{% for item in teamList.social %}
+								  <li><a href="{{ item.link }}" target="_blank"><img src="{{ item.icon }}" alt=""> </a></li>
+								{% endfor %}
+							</ul>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		
+		{% include advisors.html %}
+	</div>
+</div>

@@ -1,0 +1,58 @@
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/en/"
+    helen:
+      name: "Helen Mission"
+      url: "/en/helen"
+    cases:
+      name: "Cases"
+      url: "/en/cases"
+    team:
+      name: "Team"
+      url: "/en/team"
+    media:
+      name: "In the Media"
+      url: "/en/media"
+    partners:
+      name: "Partners"
+      url: "/en/partners"
+    careers:
+      name: "Careers"
+      url: "/en/careers"
+    news:
+      name: "News"
+      url: "/en/news"
+    contact:
+      name: "Contact"
+      url: "/en/contact"
+
+  se:
+    hem:
+      name: "Hem"
+      url: "/se/"
+    helen:
+      name: "Helen Mission"
+      url: "/se/helen"
+    fall:
+      name: "Fall"
+      url: "/se/fall"
+    team:
+      name: "Team"
+      url: "/se/team"
+    media:
+      name: "I media"
+      url: "/se/media"
+    partners:
+      name: "Partners"
+      url: "/se/partners"
+    karriärer:
+      name: "Karriärer"
+      url: "/se/Karriarer"
+    nyheter:
+      name: "Nyheter"
+      url: "/se/nyheter"
+    kontakta:
+      name: "Kontakta"
+      url: "/se/kontakta"

@@ -1,0 +1,13 @@
+title: "Why Helen?"
+fetures:
+  - image: "/images/icon1.png"
+    heading: "Improves Interaction"
+    desc: "Healthcare staff and patients can communicate effectively using Helen’s accurate medical translations."
+  - image: "/images/icon2.png"
+    heading: "Faster Access"
+    desc: "Helen helps patients communicate instantly with healthcare staff and receive care without delays."
+  - image: "/images/icon3.png"
+    heading: "Reduces Cost"
+    desc: "Helen’s digital capabilities saves time for healthcare staff and reduces patient-care process times."
+btnText: Read More
+btnUrl: "#"
