@@ -3,7 +3,7 @@ layout: default
 title:  "Welcom to worldish -2 "
 date:   2018-11-11 12:41:12 +0000
 categories: [news]
-mainImage: "/images/img7.jpg"
+mainImage: "/images/newsright.jpg"
 author: "Worldish "
 lang: se
 ref: welcome-to-worldish-2

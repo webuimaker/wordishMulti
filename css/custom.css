@@ -168,7 +168,7 @@ box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);}
 .whatsnewsection h2{margin-top:0;}
 .whatstop{margin-bottom:35px;}
 .whatstop p{text-align:center; font-size:17px; color:#000000;}
-.blogtitle{padding:15px 0;}
+.blogtitle{padding:15px 0; min-height:300px}
 .blogtitle ul{margin:0px; padding:0;}
 .blogtitle li{display:inline-block; margin-right:5px;}
 .blogtitle li span{margin-top:-2px; float:left; margin-right:3px;}
@@ -319,6 +319,7 @@ margin-top:20px;
 .newscol{background:#fff; padding:3px; margin-bottom:30px;}
 .newscol .blogtitle{padding:30px 10px 20px;}
 .newscol .blogtitle h2{font-size:15px; font-weight:300; text-transform:uppercase; color:#000000; margin-top:0; text-decoration:underline;}
+.newscol figure{min-height:270px;}
 .btnbtm .btn-green{margin-bottom:-80px; background:#f26136; min-width:220px; border:1px solid #fff; font-size:16px;}
 .btnbtm .btn-green:hover{background:#9d4429;}
 .btnblue{background:#4c3c70 !important;}
@@ -346,6 +347,15 @@ margin-top:20px;
 .newsscrlbtm h3{font-size:36px; font-weight:300; color:#000000; margin-bottom:0;}
 .newsgridsection{margin-top:30px;}
 .newsgridsection h3{font-size:22px; font-weight:300; margin-bottom:10px;}
+
+
+.moreBox:nth-child(-n+3){
+   display:block;
+}
+.moreBox{
+	display:none;
+	margin-bottom:40px;
+}
 
 
 #back-top {
@@ -387,6 +397,7 @@ margin-top:20px;
 #back-top a:hover span {
 
 }
+
 
 
 /********************************/

@@ -19,6 +19,7 @@ email: "webuimaker@gmail.com"
 description: " Hi! This is the landing page for the Building FOSH followind demand project. Here you'll find news, results and information on how to collaborate with this project."
 address: " Teknikringen 7, 583 30,<br>  Linköping, Sweden."
 tel: " +46704-13 24 07"
+excerpt_separator: "<!-- more -->"
 
 
 

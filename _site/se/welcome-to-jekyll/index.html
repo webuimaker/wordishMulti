@@ -435,12 +435,42 @@
 
   
   
+    <li><a href="/en/test14/">Test-14</a> [en] </li>
+  
+
+  
+  
+    <li><a href="/en/test13/">Test-13</a> [en] </li>
+  
+
+  
+  
+    <li><a href="/en/test12/">Test-12</a> [en] </li>
+  
+
+  
+  
+    <li><a href="/en/test11/">Test-11 ddw</a> [en] </li>
+  
+
+  
+  
     <li><a href="/en/welcome-to-worldish22/">Welcom to worldish -2 </a> [en] </li>
   
 
   
   
-    <li><a href="/en/test1/">Test-1</a> [en] </li>
+    <li><a href="/en/test1/">Test-1 we</a> [en] </li>
+  
+
+  
+  
+    <li><a href="/en/test2/">Test-2 we</a> [en] </li>
+  
+
+  
+  
+    <li><a href="/en/test1/">Test-1 we</a> [en] </li>
   
 
   
@@ -465,7 +495,7 @@
 	  
 	  
 		<div class="col-xs-12 col-sm-4 col-md-4">
-			<figure><img src="/images/img7.jpg" alt="Welcom to worldish -2 "></figure>
+			<figure><img src="/images/newsright.jpg" alt="Welcom to worldish -2 "></figure>
 			<div class="blogtitle">
 				<ul>
 					<li><span><img src="/images/icon4.png" alt=""></span> Worldish  at</li>
@@ -766,6 +796,20 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+	$(".moreBox").slice(0, 3).show();
+		if ($(".blogBox:hidden").length != 0) {
+			$("#loadMore").show();
+		}		
+		if( $(".moreBox").length < 4){ $("#loadMore").hide(); }
+		
+		$("#loadMore").on('click', function (e) {
+			e.preventDefault();
+			$(".moreBox:hidden").slice(0, 6).slideDown();
+			if ($(".moreBox:hidden").length == 0) {
+				$("#loadMore").fadeOut('slow');
+			}
+		});
+
   //Set the carousel options
   $('#quote-carousel').carousel({
     pause: true,
