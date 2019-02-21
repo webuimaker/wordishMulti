@@ -1,3 +1,15 @@
 banners:
-  text: "Tar dig över din <br> språkbarriärer"
-  video: hdr-video
+ home:
+    text: "Tar dig över dina språkbarriärer"
+    video: "/hdr-video"
+ team:
+    text: "The Team"
+    video: "/hdr-video"
+ careers:
+    text: "A Genuine Group of Web Makers"
+    Subtext: "The secret to truly successful work isn’t just about <br>technology; it’s about working with the right people."
+    image: "/images/free-news.jpg/"
+ news:
+    text: "News & Media"
+    Subtext: 
+    image: "/images/newsbg.jpg"
