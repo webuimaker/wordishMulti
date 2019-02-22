@@ -11,14 +11,22 @@
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="teamcol">
 						<figure><img src="{{site.baseurl}}{{teamList.image}}" alt=""></figure>
-						<div class="teamcontent">
+						<div class="teamcontent adv">
 							<h3>{{teamList.name}}</h3>
 							<h6>{{teamList.pos}}</h6>
-							<p><a href="mailto:{{teamList.image}}">{{teamList.email}}</a></p>
-							<p>+{{teamList.phone}}</p>
+							 {% if teamList.email %}
+								<p><a href="mailto:{{teamList.image}}">{{teamList.email}}</a></p>
+							{% endif %}
+							{% if teamList.phone %}
+								<p>+{{teamList.phone}}</p>
+							{% endif %}
+							
 							<ul>
 								{% for item in teamList.social %}
-								  <li><a href="{{ item.link }}" target="_blank"><img src="{{ item.icon }}" alt=""> </a></li>
+								   {% if item.link %}
+									<li><a href="{{ item.link }}" target="_blank"><img src="{{ item.icon }}" alt=""> </a></li>
+									{% else %}
+								{% endif %}
 								{% endfor %}
 							</ul>
 						</div>

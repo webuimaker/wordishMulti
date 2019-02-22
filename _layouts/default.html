@@ -4,11 +4,14 @@
 {% include why-helen.html %}
 {% include case.html %}
 {% include team.html %}
-{% include whats-new.html %}
+{% if page.whatsNew == 'true' %}
+	{% include whats-new.html %}
+{% endif %}
 {% include testimonial.html %}
-{% include media-section.html %}
-{% include book-section.html %}
 {% include award-section.html %}
+{% include in-media.html %}
+{% include partners.html %}
+{% include book-section.html %}
 {% include query-section.html %}  
 {% include instagram.html %}  
 {{ content }}

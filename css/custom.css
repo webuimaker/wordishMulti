@@ -138,7 +138,7 @@ left: 170px; }
 .toprow .casecol p a{color:#2471b9; text-decoration:underline;}
 
 .row-centered{text-align:center;}
-.col-centered {display:inline-block; float:none; /* reset the text-align */ text-align:left; /* inline-block space fix */ margin-right:-4px; text-align: center; margin-bottom:70px;}
+.col-centered {display:inline-block; float:none; /* reset the text-align */ text-align:left; /* inline-block space fix */ margin-right:-4px; text-align: center; margin-bottom:70px; vertical-align:top;}
 
 
 /********************************/
@@ -153,7 +153,8 @@ left: 170px; }
 -webkit-box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);
 -moz-box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);
 box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);}
-.teamcontent{padding:25px 10px; text-align:center;}
+.teamcontent{padding:25px 10px; text-align:center; min-height:220px;}
+.teamcontent.adv{ min-height:130px;}
 .teamcontent h3{font-size:22px; color:#000; margin-top:0;}
 .teamcontent h6{font-size:18px; color:#000; margin-top:0; margin-bottom:10px;}
 .teamcontent p a, .teamcontent p{color:#000; font-size:16px;}
@@ -187,40 +188,41 @@ box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);}
 .owl-theme .owl-nav.disabled + .owl-dots{margin-top:30px !important;}
 
 /* carousel */
-#quote-carousel, #quote-carouselnew{padding: 0 10px 30px 10px; margin-top:30px;}
+#quote-carousel, #quote-carouselnew, .cars-slide{padding: 0 10px 30px 10px; margin-top:30px;}
 
 /* Control buttons  */
-#quote-carousel .carousel-control, #quote-carouselnew .carousel-control{background: none; color: #fff; font-size:5.3em; text-shadow: none; margin-top: 40px; opacity:1; width:inherit;}
+#quote-carousel .carousel-control, #quote-carouselnew .carousel-control, .cars-slide .carousel-control{background: none; color: #fff; font-size:5.3em; text-shadow: none; margin-top: 40px; opacity:1; width:inherit;}
 /* Previous button  */
-#quote-carousel .carousel-control.left , #quote-carouselnew .carousel-control.left
+#quote-carousel .carousel-control.left , #quote-carouselnew .carousel-control.left, .cars-slide .carousel-control.left
 {
   left: -12px;
 }
 /* Next button  */
-#quote-carousel .carousel-control.right, #quote-carouselnew .carousel-control.right
+#quote-carousel .carousel-control.right, #quote-carouselnew .carousel-control.right, .cars-slide .carousel-control.right
 {
   right: -12px !important;
 }
 /* Changes the position of the indicators */
-#quote-carousel .carousel-indicators,  #quote-carouselnew .carousel-indicators{
+#quote-carousel .carousel-indicators,  #quote-carouselnew .carousel-indicators, .cars-slide .carousel-indicators{
   right: 50%;
   top: auto;
   bottom: 0px;
   margin-right: -19px;
 }
 /* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li,  #quote-carouselnew .carousel-indicators li
+#quote-carousel .carousel-indicators li,  #quote-carouselnew .carousel-indicators li, .cars-slide .carousel-indicators li
 {
   background: #c0c0c0;
   width:50px; height:2px; border:0; margin:0;
 }
-#quote-carousel .carousel-indicators .active,  #quote-carouselnew .carousel-indicators .active
+#quote-carousel .carousel-indicators .active,  #quote-carouselnew .carousel-indicators .active, .cars-slide .carousel-indicators .active
 {
   background: #333333;
 }
-#quote-carousel img, #quote-carouselnew img
+#quote-carousel img, #quote-carouselnew img, .cars-slide  img
 {	
 margin-top:20px;
+max-width: 152px;
 }
 
 .item blockquote {
@@ -256,7 +258,8 @@ margin-top:20px;
 .awardsection h2, .headingsection h2{color:#000000; text-align:center; position: relative; font-size:40px; font-weight:300; padding-bottom:20px;}
 .awardsection h2:after, .headingsection h2:after{content: "";  width: 140px; position: absolute; bottom: 0; left:44%; border-bottom:4px solid #000;}
 .awardsection ul{margin:40px 0 0; padding:0px; text-align:center;}
-.awardsection li{display:inline-block; padding:0px 20px;}
+.awardsection li{display:inline-block; padding:0px 20px; max-width: 33%;}
+.awardsection li img{max-width:100%}
 
 /********************************/
 /*         Query Section   */

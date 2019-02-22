@@ -1,152 +1,176 @@
-title: "The Team"
-desc: "We are a team evolved from the academia of Linköping University, Sweden. We are an international and multicultural team with competences in the fields of Software engineering, Language technology, Cognitive science, Business administration, Innovation management and Medicine."
+﻿title: "Teamet"
+desc: "Vi är ett team utvecklat från Linköpings universitet, Sverige. Vi är ett internationellt och mångkulturellt team med kompetenser inom programvaruteknik, språkteknologi, kognitiv vetenskap, företagsekonomi, innovationshantering och medicin."
 btnText: "Meet The Team"
-btnUrl: "/team/"
+btnUrl: "/se/team/"
 advisorsTitle: "Advisors"
 advisorsDesc: "We are a team evolved from the academia of Linkoping University, Sweden."
 teams:
-  - image: "/images/team1.jpg"
+  - image: "/images/teams/abhishek-squar.jpg"
     name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
+    pos: "Medgrundare och VD"
+    email: "abhishek.jacob2worldish.se"
+    phone: "46704132407"
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link: "https://www.linkedin.com/in/abhishekjacobc/"
+      - icon: "/images/twit-icon.png"
+        link: 
+      - icon: "/images/fbicon.png"
+        link: 
+  - image: "/images/teams/naveen-square.jpg"
+    name: "Naveen Sasidharan"
+    pos: "Medgrundare och koperativ chef"
     email: "abhishek.jacob@worldish.se"
     phone: "46704-13 24 07"
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/naveensasidharan/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team2.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:  
+  - image: "/images/teams/oskar-aagaard.jpg"
+    name: "Oskar Aagaard Franssont"
+    pos: "Utvecklare "
+    email: "oskar@worldish.se"
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/oskar-aagaard-fransson-510b8814a/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team3.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:  
+  - image: "/images/teams/art-pic.jpg"
+    name: "Art Valindore"
+    pos: "Medicinsk verksamhetsansvarig"
+    email: "art@worldish.se"
+    phone: "4672252102"
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/art-valindore-73983b60/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team4.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:  
+  - image: "/images/teams/klara.jpg"
+    name: "Klara Gelin"
+    pos: "Marknadsföring och kundrelationer utvecklare"
+    email: "klara@worldish.se"
+    phone: "46703805292"
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/klara-gelin-53b011120/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team1.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link: 
+  - image: "/images/teams/oscar-andersson.jpg"
+    name: "Oscar Andersson"
+    pos: "Ledande Översättningsutvecklare "
+    email: "oscar@worldish.se"
+    phone: "46704217211"
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/carl-oscar-andersson-95a255126/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team1.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link: 
+  - image: "/images/teams/Hadeel.jpg"
+    name: "Hadeel Ali"
+    pos: "Produktsupportspecialist"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/hadeel-saeed-88574467/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team1.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link: 
+  - image: "/images/teams/tahmina.png"
+    name: "Tahmina Bina"
+    pos: "Produktsupportspecialist"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: 
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team1.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link: 
+  - image: "/images/teams/lovisa.jpg"
+    name: "Lovisa Malm"
+    pos: "Medicinsk verksamhetsansvarig"
+    email:  "lovisa@worldish.se"
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/hadeel-saeed-88574467/"
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
+        link:  
+  - image: "/images/teams/feras.jpg"
+    name: "Feras Albajjary"
+    pos: "Ledande Översättningsutvecklare "
+    email:  
+    phone:  
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link: 
+      - icon: "/images/twit-icon.png"
+        link:  
+      - icon: "/images/fbicon.png"
+        link: 
 advisors:
-  - image: "/images/team1.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+  - image: "/images/teams/gitte.jpg"
+    name: "Gitte Swaminathan"
+    pos: "Medical Advisor"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link:  
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team2.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:
+  - image: "/images/teams/sofia.jpg"
+    name: "Sofia Frelandn"
+    pos: "Medical Advisor"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link:  
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team3.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:
+  - image: "/images/teams/marco.png"
+    name: "Marco Kuhlmann"
+    pos: "Technical Advisor"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link:  
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
-  - image: "/images/team4.jpg"
-    name: "Abhishek Jacob Chethikatt"
-    pos: "Co-founder &amp; CEO"
-    email: "abhishek.jacob@worldish.se"
-    phone: "46704-13 24 07"
+        link:  
+  - image: "/images/teams/Lundin.jpg"
+    name: "Robin Liendeborg"
+    pos: "Business Advisor"
+    email:  
+    phone:  
     social:
       - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/"
+        link:  
       - icon: "/images/twit-icon.png"
-        link: "https://twitter.com/"
+        link:  
       - icon: "/images/fbicon.png"
-        link: "https://facebook.com"
+        link: 

@@ -1,7 +1,7 @@
 banners:
  home:
     text: "Taking you across your language barriers"
-    video: "/hdr-video"
+    image: "/images/free-news.jpg/"
  team:
     text: "The Team"
     video: "/hdr-video"

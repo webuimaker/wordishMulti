@@ -1,0 +1,18 @@
+<!-- ================ Media Section ================ -->
+<div class="container mediasection carouselsection ">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 text-center">
+			<h2>{{site.data.[page.lang].partners.title}}</h2>
+			<p>{{site.data.[page.lang].partners.desc}}</p>
+		</div>
+		 <div class="col-xs-12 col-sm-12 col-md-12 mediascroll">
+			<div class="owl-carousel owl-theme">
+				 {% for loops in  site.data.[page.lang].partners.media%}
+					<div class="item">
+					  <figure><img src="{{site.baseurl}}{{loops.image}}" alt=""></figure>	
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
