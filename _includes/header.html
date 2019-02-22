@@ -43,7 +43,10 @@
 						<div class="navright">
 							<ul id="menu">
 								  {% for menu in site.data.menu.t[page.lang] %}
+								  {% if menu[1].url	%}
 									<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+									{% else %}
+								{% endif %}
 								  {% endfor %}
 							</ul>
 						</div>

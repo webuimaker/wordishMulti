@@ -2,7 +2,7 @@
 /* CSS Document */
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after { box-sizing: border-box;outline: none !important; }
 html { width: 100%; min-height: 100%; }
 body { color: #444444; font-family: 'Roboto', sans-serif; overflow-x:hidden;}
 h1,h2,h3,h4,h5,h6 {color:#0e3853;}
@@ -250,6 +250,8 @@ max-width: 152px;
 .booksection{background:url(../images/booksectionbg.png) no-repeat center center #2771b9; background-size:cover; padding:95px 0px 65px;}
 .bookleft h3{font-size:50px; color:#fff; font-weight:300;}
 .bookleft p{font-size:32px; color:#fff; font-weight:300;}
+
+
 
 /********************************/
 /*         Award Section   */

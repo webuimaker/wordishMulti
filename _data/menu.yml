@@ -5,28 +5,28 @@ t:
       url: "/en/"
     helen:
       name: "Helen Mission"
-      url: "/en/helen"
+      url: "/en/#helensection"
     cases:
       name: "Cases"
-      url: "/en/cases"
+      url: "/en/#cases"
     team:
       name: "Team"
-      url: "/en/team"
+      url: "/en/#team"
     media:
       name: "In the Media"
-      url: "/en/media"
+      url: "/en/#media"
     partners:
       name: "Partners"
-      url: "/en/partners"
+      url: "/en/#partners"
     careers:
       name: "Careers"
       url: "/en/careers"
     news:
       name: "News"
-      url: "/en/news"
+      url: 
     contact:
       name: "Contact"
-      url: "/en/contact"
+      url: "/en/#contact"
 
   se:
     hem:
@@ -34,25 +34,25 @@ t:
       url: "/se/"
     helen:
       name: "Helen Mission"
-      url: "/se/helen"
+      url: "/se/#helensection"
     fall:
       name: "Fall"
-      url: "/se/fall"
+      url: "/se/#cases"
     team:
       name: "Team"
-      url: "/se/team"
+      url: "/se/#team"
     media:
       name: "I media"
-      url: "/se/media"
+      url: "/se/#media"
     partners:
       name: "Partners"
-      url: "/se/partners"
+      url: "/se/#partners"
     karriärer:
       name: "Karriärer"
       url: "/se/Karriarer"
     nyheter:
       name: "Nyheter"
-      url: "/se/nyheter"
+      url: 
     kontakta:
       name: "Kontakta"
-      url: "/se/kontakta"
+      url: "/se/#contact"
