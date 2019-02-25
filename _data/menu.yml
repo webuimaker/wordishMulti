@@ -11,7 +11,7 @@ t:
       url: "/en/#cases"
     team:
       name: "Team"
-      url: "/en/#team"
+      url: "/en/team/"
     media:
       name: "In the Media"
       url: "/en/#media"
@@ -20,7 +20,7 @@ t:
       url: "/en/#partners"
     careers:
       name: "Careers"
-      url: "/en/careers"
+      url: 
     news:
       name: "News"
       url: 
@@ -40,7 +40,7 @@ t:
       url: "/se/#cases"
     team:
       name: "Team"
-      url: "/se/#team"
+      url: "/se/team/"
     media:
       name: "I media"
       url: "/se/#media"
@@ -49,7 +49,7 @@ t:
       url: "/se/#partners"
     karriärer:
       name: "Karriärer"
-      url: "/se/Karriarer"
+      url: 
     nyheter:
       name: "Nyheter"
       url: 

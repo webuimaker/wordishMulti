@@ -2,12 +2,14 @@
 desc: "We are a team evolved from the academia of Linköping University, Sweden. We are an international and multicultural team with competences in the fields of Software engineering, Language technology, Cognitive science, Business administration, Innovation management and Medicine."
 btnText: "Meet The Team"
 btnUrl: "/en/team/"
-advisorsTitle: "Advisors"
+advisorsTitle: "Medical Advisory Board"
 advisorsDesc: "We are a team evolved from the academia of Linkoping University, Sweden."
+technologyAdvisorsTitle: "Technology Advisory Board"
+technologyAdvisorsDesc: "We are a team evolved from the academia of Linkoping University, Sweden."
 teams:
   - image: "/images/teams/abhishek-squar.jpg"
     name: "Abhishek Jacob Chethikatt"
-    pos: "Medgrundare och VD"
+    pos: "Co-founder & CEO"
     email: "abhishek.jacob2worldish.se"
     phone: "46704132407"
     social:
@@ -128,7 +130,8 @@ teams:
 advisors:
   - image: "/images/teams/gitte.jpg"
     name: "Gitte Swaminathan"
-    pos: "Medical Advisor"
+    pos: "Chief Medical Advisor"
+    subPos: "Specialization: Emergency Medicine & Internal Medicine"
     email:  
     phone:  
     social:
@@ -139,8 +142,9 @@ advisors:
       - icon: "/images/fbicon.png"
         link:
   - image: "/images/teams/sofia.jpg"
-    name: "Sofia Frelandn"
-    pos: "Medical Advisor"
+    name: "Sofia Freland"
+    pos: "Senior Medical Advisor"
+    subPos: "Specialization: Emergency Medicine"
     email:  
     phone:  
     social:
@@ -150,9 +154,10 @@ advisors:
         link:  
       - icon: "/images/fbicon.png"
         link:
-  - image: "/images/teams/marco.png"
-    name: "Marco Kuhlmann"
-    pos: "Technical Advisor"
+  - image: "/images/teams/hans-tropp.jpg"
+    name: "Hans Tropp"
+    pos: "Senior Medical Specialist Advisor"
+    subPos: "Specialization: Orthopedics & Surgery"
     email:  
     phone:  
     social:
@@ -163,8 +168,9 @@ advisors:
       - icon: "/images/fbicon.png"
         link:  
   - image: "/images/teams/Lundin.jpg"
-    name: "Robin Liendeborg"
-    pos: "Business Advisor"
+    name: "Christina Lundin"
+    pos: "Medical Advisor & Researcher"
+    subPos: "Specialization: Nursing & Healthcare communication"
     email:  
     phone:  
     social:
@@ -173,4 +179,31 @@ advisors:
       - icon: "/images/twit-icon.png"
         link:  
       - icon: "/images/fbicon.png"
-        link:   
+        link: 
+technologyAdvisors:
+  - image: "/images/teams/marco.png"
+    name: "Marco Kuhlmann"
+    pos: "Chief Tech Advisor"
+    subPos: "Professor - Language Technology & NLP"
+    email:  
+    phone:  
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link:  
+      - icon: "/images/twit-icon.png"
+        link:  
+      - icon: "/images/fbicon.png"
+        link:
+  - image: "/images/teams/sofia.jpg"
+    name: "Magnus Anvil"
+    pos: "Chief IT Security Advisor"
+    subPos: "Specialization - IT Security & Architecture"
+    email:  
+    phone:  
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link:  
+      - icon: "/images/twit-icon.png"
+        link:  
+      - icon: "/images/fbicon.png"
+        link:

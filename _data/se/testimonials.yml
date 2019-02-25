@@ -2,11 +2,14 @@ title: "Testimonials"
 desc: "Don't take our word. See our testimonials"
 testimonials:
   - image: "/images/testimonial/testimonial-1.png"
-    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-    logo: "/images/locationicon.png"
+    comments: "Vi har minskat var anvandning av arabiska tolken till 30%."
+    logo:  
+    commentsBy: "Forlossning, Linkopingsuniversitetsjukhus"
   - image: "/images/testimonial/testimonial-2.png"
-    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-    logo: "/images/locationicon.png"
-  - image: "/images/testiimg.jpg"
-    comments: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-    logo: "/images/locationicon.png"
+    comments: "Patientaterkommst har minskat. De har forstatt informationen i hogre utstrackning."
+    logo: 
+    commentsBy: "Barnmoska, Linkopingsuniversitetsjukhus"
+  - image: "/images/testimonial/testimonial-3.png"
+    comments: "I can use Helen with 19 out of my 20 patients everyday."
+    logo: 
+    commentsBy: "Specialist Akut Lakare - Linkopingsuniversitetsjukhus"
