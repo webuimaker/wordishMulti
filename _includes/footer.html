@@ -132,11 +132,13 @@ $(document).ready(function() {
 	$('a.loadmore').click(function () {
 		
 			$(this).parents(".casecol").find(".casehideshow").css("maxHeight", "100%");
+			$('a.loadmore').hide();
 			return false;
 		});
 		
 	$(".colfirst").mouseleave(function(){
 		$(".casehideshow").css("maxHeight", "62px");
+		$('a.loadmore').show();
 	});
 	
 	
