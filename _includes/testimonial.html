@@ -21,12 +21,18 @@
 						  <div class="item {% if forloop.first %}active {% endif %} ">
 							<blockquote>
 							  <div class="row">
-								<div class="col-sm-12 text-center">
-								  <img class="img-circle" src="{{site.baseurl}}{{testi.image}}" alt="{{testi.image}}">
+								<div class="col-sm-12 text-center ">
+									<div class="testi-img">
+										<img class="img-circle" src="{{site.baseurl}}{{testi.image}}" alt="{{testi.image}}">
+									</div>
 								</div>
 								<div class="col-sm-12">
-								  <p>{{testi.comments}} {{forloop.index}}</p>
-								  <figure><img src="{{site.baseurl}}{{testi.logo}}" alt="{{testi.logo}}"></figure>
+								  <p>{{testi.comments}}</p>
+								  {% if testi.logo %}	
+									<figure><img src="{{site.baseurl}}{{testi.logo}}" alt="{{testi.logo}}"></figure>
+									{% else %}
+									<p class="mTop25 commentsBy">- <em>{{testi.commentsBy}}</em></p>
+								{%endif%}
 								</div>
 							  </div>
 							</blockquote>

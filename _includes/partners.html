@@ -7,9 +7,9 @@
 		</div>
 		 <div class="col-xs-12 col-sm-12 col-md-12 mediascroll">
 			<div class="owl-carousel owl-theme">
-				 {% for loops in  site.data.[page.lang].partners.media%}
+				 {% for loops in  site.data.[page.lang].partners.media %}
 					<div class="item">
-					  <figure><img src="{{site.baseurl}}{{loops.image}}" alt=""></figure>	
+					  <figure><a href="{{loops.url}}" target="_blank"><img src="{{site.baseurl}}{{loops.image}}" alt=""></a></figure>	
 					</div>
 				{% endfor %}
 			</div>

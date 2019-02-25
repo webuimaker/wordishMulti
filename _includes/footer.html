@@ -59,6 +59,8 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+
+
 	$(".moreBox").slice(0, 3).show();
 		if ($(".blogBox:hidden").length != 0) {
 			$("#loadMore").show();
@@ -92,7 +94,7 @@ $(document).ready(function() {
 			  
                 items: 4,
                 loop: true,
-                margin: 10,
+                margin: 40,
                 autoplay: 3000,				   
 				dots: true,
                 autoplayTimeout: 1000,
@@ -126,6 +128,18 @@ $(document).ready(function() {
 			return false;
 		});
 	});
+	
+	$('a.loadmore').click(function () {
+		
+			$(this).parents(".casecol").find(".casehideshow").css("maxHeight", "100%");
+			return false;
+		});
+		
+	$(".colfirst").mouseleave(function(){
+		$(".casehideshow").css("maxHeight", "62px");
+	});
+	
+	
 	
 	
 // Select all links with hashes

@@ -1,13 +1,13 @@
 <div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 teamtop">
-				<h2>{{site.data.[page.lang].team.advisorsTitle}}</h2>
-				<p>{{site.data.[page.lang].team.advisorsDesc}}</p>
+				<h2>{{site.data.[page.lang].team.technologyAdvisorsTitle}}</h2>
+				<p>{{site.data.[page.lang].team.technologyAdvisorsDesc}}</p>
 			</div>
 		</div>
 		
 		<div class="teamlist">
 			<div class="row">
-				{% for teamList in {{site.data.[page.lang].team.advisors}} %}
+				{% for teamList in {{site.data.[page.lang].team.technologyAdvisors}} %}
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="teamcol">
 						<figure><img src="{{site.baseurl}}{{teamList.image}}" alt=""></figure>

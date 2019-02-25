@@ -11,7 +11,7 @@
 					<!-- Bottom Carousel Indicators -->
 					<ol class="carousel-indicators">
 						{% for testi in {{site.data.[page.lang].media.medias}} %}
-							<li data-target="#quote-carousel" data-slide-to="{{forloop.index}}" class="{% if forloop.first %}active {% endif %}"></li>
+							<li data-target="#in-medial" data-slide-to="{{forloop.index}}" class="{% if forloop.first %}active {% endif %}"></li>
 						{%endfor%}
 					</ol>
 					<!-- Carousel Slides / Quotes -->
@@ -22,10 +22,13 @@
 							<blockquote>
 							  <div class="row">
 								<div class="col-sm-12 text-center">
-								  <img class="img-circle" src="{{site.baseurl}}{{testi.image}}" alt="{{testi.image}}">
+								  <div class="testi-img">
+										<img class="img-circle" src="{{site.baseurl}}{{testi.image}}" alt="{{testi.image}}">
+									</div>
 								</div>
 								<div class="col-sm-12">
-								  <p>{{testi.comments}} {{forloop.index}}</p>
+								  <p>{{testi.comments}}</p>
+								  <p class="readmore"><a href="{{testi.url}}" target="_blank">Read More..</a></p>
 								  <figure><img src="{{site.baseurl}}{{testi.logo}}" alt="{{testi.logo}}"></figure>
 								</div>
 							  </div>
@@ -34,8 +37,8 @@
 						  {% endfor %}
 					</div>
 					<!-- Carousel Buttons Next/Prev -->
-					<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-					<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+					<a data-slide="prev" href="#in-media" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+					<a data-slide="next" href="#in-media" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
 				</div>                          
             </div>
 		</div>
