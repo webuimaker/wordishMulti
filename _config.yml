@@ -55,15 +55,16 @@ plugins:
 exclude: [Rakefile, README.md]
 
 #socialMedia
-fbUrl: "fb.com"
+fbUrl: "https://www.facebook.com/WorldishAB/"
 fbIcon: "/images/fbfoot.jpg"
-instagramUrl: "instagram.com"
+instagramUrl: "https://www.instagram.com/worldish_ab/"
 instagramIcon: "/images/icon6.png"
-youtubeUrl: "youtube.com"
+youtubeUrl: " "
 youtubeIcon: "/images/icon7.png"
-twitterUrl: "twitter.com"
+twitterUrl: " "
 twitterIcon: "/images/icon8.png"
-
+linkedinUrl: "https://www.linkedin.com/company/worldish/"
+linkedinIcon: "/images/linkedin.png"
 
 defaultLang: en
 languageNames:

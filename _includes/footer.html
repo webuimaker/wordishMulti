@@ -38,13 +38,17 @@
 				{% if  site.twitterUrl != " "  %}
 					<li><a href="{{site.twitterUrl}}"><img src="{{site.baseurl}}{{site.twitterIcon}}" alt=""></a></li>
 				{% endif %}
+				{% if  site.linkedinUrl != " "  %}
+					<li><a href="{{site.linkedinUrl}}"><img src="{{site.baseurl}}{{site.linkedinIcon}}" alt=""></a></li>
+				{% endif %}
 				
 			</ul>
 		</div>
 	</div>
 </footer>
-{% include modal.html %}
+
 <div id="back-top"><a href="#top"><span><img src="{{site.baseurl}}/images/arrowtop.png" alt=""></span></a></div>
+{% include modal.html %}
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -59,6 +63,28 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+
+// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 500) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
 
 
 	$(".moreBox").slice(0, 3).show();
@@ -107,27 +133,7 @@ $(document).ready(function() {
                 owl.trigger('stop.owl.autoplay')
               });
 			  
-	// hide #back-top first
-	$("#back-top").hide();
 	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 500) {
-				$('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
-		});
-
-		// scroll body to 0px on click
-		$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
-	});
 	
 	$('a.loadmore').click(function () {
 		

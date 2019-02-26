@@ -1,12 +1,12 @@
 title: "Varför Helen? "
 fetures:
-  - image: "/images/icon1.png"
+  - image: "/images/interaction.png"
     heading: "Förbättrar interaktionen"
     desc: "Sjukvårdspersonalen och patienter kan kommunicera effektivt med hjälp av Helens noggranna medicinska översättningar."
-  - image: "/images/icon2.png"
+  - image: "/images/accessability.png"
     heading: "Snabbare tillgång "
     desc: "Helen hjälper patienterna att omedelbart kommunicera med vårdpersonalen och få vård utan förseningar."
-  - image: "/images/icon3.png"
+  - image: "/images/reduced-costs.png"
     heading: "Minskar kostnaderna"
     desc: "Helens digitala möjligheter sparar tid för vårdpersonal och minskar patientvårdsprocessen."
 btnText: Read More
