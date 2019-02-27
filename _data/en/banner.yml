@@ -13,3 +13,7 @@ banners:
     text: "News & Media"
     Subtext: 
     image: "/images/newsbg.jpg"
+ media:
+    text: "In the Media"
+    Subtext: 
+    image: "/images/newsbg.jpg"

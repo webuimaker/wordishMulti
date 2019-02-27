@@ -170,9 +170,10 @@ box-shadow: -1px 1px 12px -3px rgba(110,109,110,1);}
 .teamcontent ul{text-align:center; margin:15px 0px 0; padding:0;}
 .teamcontent li{display:inline-block;}
 
-.teamlist .teamcol figure{height:200px; overflow: hidden;}
-.teamlist .teamcol span{display: flex;    align-items: center;    justify-content: center;}
-.teamlist .teamcol span img{/*height:100%;*/   width: 100%;     object-fit: cover;}
+.teamlist .teamcol figure, .teamlist .newscol figure {height:200px; overflow: hidden;}
+.teamlist .teamcol span, .teamlist .newscol span{display: flex;    align-items: center;    justify-content: center;}
+.teamlist .teamcol span img, .teamlist .newscol img{/*height:100%;*/   width: 100%;     object-fit: cover;}
+.teamlist .newscol img{height:100%;}
 
 /********************************/
 /*         Whats New Section   */
