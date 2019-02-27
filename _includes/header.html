@@ -59,10 +59,17 @@
 				{% if site.data.[page.lang].banner.banners.[curPage].Subtext %}
 					<h3>{{ site.data.[page.lang].banner.banners.[curPage].Subtext }}</h3>
 				{% endif %}
+				
              </div>	
+			
              
-       </div>  
-       </div>
-   </div>  
+       </div> 
+		
+	   <button onclick="toggleMute();" class="sound-toggle">
+					<i class="fa fa-pause"></i>
+				</button>
+       </div> 
+   </div> 
+   
 	<div class="overlay"></div>
 </header>
