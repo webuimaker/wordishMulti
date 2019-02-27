@@ -10,13 +10,13 @@
 				<div class="carousel slide cars-slide " data-ride="carousel" id="in-media">
 					<!-- Bottom Carousel Indicators -->
 					<ol class="carousel-indicators">
-						{% for testi in {{site.data.[page.lang].media.medias}} %}
+						{% for testi in {{site.data.[page.lang].media.medias}} limit:4 %}
 							<li data-target="#in-medial" data-slide-to="{{forloop.index}}" class="{% if forloop.first %}active {% endif %}"></li>
 						{%endfor%}
 					</ol>
 					<!-- Carousel Slides / Quotes -->
 					<div class="carousel-inner">
-						{% for testi in {{site.data.[page.lang].media.medias}} %}
+						{% for testi in {{site.data.[page.lang].media.medias}} limit:4   %}
 						  <!-- Quote -->
 						  <div class="item {% if forloop.first %}active {% endif %} ">
 							<blockquote>

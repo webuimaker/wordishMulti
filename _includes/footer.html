@@ -125,6 +125,22 @@ $(document).ready(function() {
 				dots: true,
                 autoplayTimeout: 1000,
                 autoplayHoverPause: true, 
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 2,
+						nav: true
+					},
+					600: {
+						items: 2,
+						nav: false
+					},
+					1000: {
+						items: 4,
+						nav: true,
+						loop: false
+					}
+				}
               });
               $('.play').on('click', function() {
                 owl.trigger('play.owl.autoplay', [1000])

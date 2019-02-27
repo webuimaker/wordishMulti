@@ -42,6 +42,7 @@
 
 
 @media screen and (max-width: 767px) {
+	.selectlang{padding-top:10px;}
 .styled-select{width:100%;}
 .styled-select select{width:100%;}
 .whatsnewsection h2::after, .teamsection h2::after, .headingsection h2::after, .casesection h2::after, .awardsection h2::after{display:none;}	
@@ -63,7 +64,7 @@
 .helensection{padding:20px 15px;}
 .bookleft h3{font-size:26px; text-align:center;}
 .bookleft p{font-size:18px; text-align:center;}
-.awardsection li{width:100%; margin-bottom:20px;}
+.awardsection li{width:100%; margin-bottom:20px; max-width:100%;}
 .bookright{padding-top:20px;}
 .selectlang{text-align:center;}
 .topheader .logo{text-align:center;}
@@ -77,6 +78,11 @@
 .awardsection h2, .headingsection h2{font-size:26px;}	
 .footer{text-align:center;}	
 .footleft{margin-bottom:20px;}
+#back-top{right:20px;}
+#back-top a , #back-top span{width:42px; height:42px;}
+.teamlist .teamcol span img{    object-fit: fill;     height: 100%;}
+.index-video-wrapper, #index-video{height:auto;}
+.bannertxt, .newstxt{padding-top:0px;}
 
 #quote-carousel .carousel-indicators {
         bottom: -37px !important;  

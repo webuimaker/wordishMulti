@@ -23,10 +23,10 @@
 	   
 	   
        <div class="bannercontent">
-       	  <div class="bannermain">
+       	  <div class="bannermain {% if page.bannerSM == 'true' %} small-banner {% endif %}">
           	 <div class="topheader">
                     <div class="col-xs-5 col-sm-2 col-md-2 logo"><a href="{{ page.url | relative_url }}"><img src="{{site.baseurl}}/images/logo.png" alt=""></a></div>
-                    <nav class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                    <nav class="col-xs-5 col-sm-10 col-md-10 col-lg-10">
 					    <div class="selectlang">
 							<div class="input-prepend input-append">
 								<div class="btn-group">
@@ -55,7 +55,7 @@
           
              <div class="clearfix"></div>
              <div class="bannertxt">		 
-             	<h1>{{ site.data.[page.lang].banner.banners.[curPage].text }}</h1>
+             	<h1>{{ site.data.[page.lang].banner.banners.[curPage].text }}  {{page.bannerSM}}</h1>
 				{% if site.data.[page.lang].banner.banners.[curPage].Subtext %}
 					<h3>{{ site.data.[page.lang].banner.banners.[curPage].Subtext }}</h3>
 				{% endif %}
