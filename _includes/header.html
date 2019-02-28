@@ -54,6 +54,7 @@
              </div>
           
              <div class="clearfix"></div>
+			 {% if  site.data.[page.lang].banner.banners.[curPage].image %}
              <div class="bannertxt">		 
              	<h1>{{ site.data.[page.lang].banner.banners.[curPage].text }} </h1>
 				{% if site.data.[page.lang].banner.banners.[curPage].Subtext %}
@@ -61,13 +62,14 @@
 				{% endif %}
 				
              </div>	
-			
+			{% endif %}
              
        </div> 
-		
-	   <button onclick="toggleMute();" class="sound-toggle">
-					<i class="fa fa-pause"></i>
-				</button>
+		{% if  site.data.[page.lang].banner.banners.[curPage].video %}
+			<button onclick="toggleMute();" class="sound-toggle">
+				<i class="fa fa-pause"></i>
+			</button>
+		{% endif %}
        </div> 
    </div> 
    

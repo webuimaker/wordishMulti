@@ -1,7 +1,9 @@
 {% include head.html %}
 {% include header.html %}
 {{ content }}
-{% include query-section.html %}  
+{% if  page.queries != "false"%}
+	{% include query-section.html %} 
+{% endif %}	
 {% include instagram.html %} 
 
 {% include footer.html %}

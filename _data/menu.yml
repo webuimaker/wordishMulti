@@ -14,7 +14,7 @@ t:
       url: "/en/team/"
     media:
       name: "In the Media"
-      url: "/en/#media"
+      url: "/en/in-media/"
     partners:
       name: "Partners"
       url: "/en/#partners"
@@ -43,7 +43,7 @@ t:
       url: "/se/team/"
     media:
       name: "I media"
-      url: "/se/#media"
+      url: "/se/in-media/"
     partners:
       name: "Partners"
       url: "/se/#partners"

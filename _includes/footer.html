@@ -66,6 +66,7 @@ function toggleMute() {
 		var video=document.getElementById("index-video");
 		if(video.muted){
 			video.muted = false;
+			$(".sound-toggle i").removeClass('fa fa-play');
 			$(".sound-toggle i").addClass('fa fa-pause');
 		} else {
 			video.muted = true;
