@@ -16,6 +16,7 @@
 .whatsnewsection h2::after{left:315px;}
 .footmdl{margin-bottom:40px;}
 .footer{padding:50px 15px;}
+.topheader .logo{ width:100%}
 
 #quote-carousel 
     {
@@ -42,6 +43,7 @@
 
 
 @media screen and (max-width: 767px) {
+	.topheader .logo{ width:100%}
 	.selectlang{padding-top:10px;}
 .styled-select{width:100%;}
 .styled-select select{width:100%;}
@@ -129,5 +131,5 @@
 
 
 @media screen and (max-width:479px){
-
+	.topheader .logo{ width:100%}
 }
