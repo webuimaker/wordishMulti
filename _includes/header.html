@@ -25,9 +25,9 @@
        <div class="bannercontent">
        	  <div class="bannermain {% if page.bannerSM == 'true' %} small-banner {% endif %}">
           	 <div class="topheader">
-                    <div class="col-xs-5 col-sm-2 col-md-2 logo"><a href="{{ page.url | relative_url }}"><img src="{{site.baseurl}}/images/logo.png" alt="" {% if  site.data.[page.lang].banner.banners.[curPage].video %} class="logo-sm" {% endif %}></a></div>
-                    <nav class="col-xs-5 col-sm-10 col-md-10 col-lg-10">
-					    <div class="selectlang">
+                    <div class="col-xs-5 col-sm-2 col-md-3 logo"><a href="{{ page.lang | relative_url }}"><img src="{{site.baseurl}}/images/worldish-horizontal.png" alt="" {% if  site.data.[page.lang].banner.banners.[curPage].video %} class="logo-sm" {% endif %}></a></div>
+                    <nav class="col-xs-5 col-sm-10 col-md-9 col-lg-9">
+					    <div class="selectlang lang-lg">
 							<div class="input-prepend input-append">
 								<div class="btn-group">
 									<button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
@@ -48,6 +48,12 @@
 									{% else %}
 								{% endif %}
 								  {% endfor %}
+									
+									<li class="lang-sm">Langguage 
+										<ul>
+										   {% include selector.html %}
+										</ul>
+									</li>
 							</ul>
 						</div>
                     </nav>

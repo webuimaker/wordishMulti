@@ -42,6 +42,24 @@
 
 
 @media screen and (max-width: 767px) {
+	.js .slicknav_menu{		
+		position:absolute;
+		z-index: 999999;
+		width: 100%;
+		min-height: 50px;
+		background: transparent;
+	}
+	.slicknav_menu ul{background:rgba(18,149,216,0.9); margin-top:0px !important}
+	.slicknav_menu ul li a{color:#fff !important}
+	
+	.lang-sm{display:block !important;}
+	.lang-lg{display:none;}
+	.lang-sm >a {padding:10px !important;}
+	.slicknav_menu ul{padding-bottom:0px !important}
+	.sound-toggle{left:10px;}
+	.carousel-indicators li{ width:40px !important}
+	.newsbg img{ min-height:150px;}
+	.bannermain{display:flex;     flex-direction: column;     vertical-align: middle;  height:100% }
 	.selectlang{padding-top:10px;}
 .styled-select{width:100%;}
 .styled-select select{width:100%;}
@@ -67,7 +85,7 @@
 .awardsection li{width:100%; margin-bottom:20px; max-width:100%;}
 .bookright{padding-top:20px;}
 .selectlang{text-align:center;}
-.topheader .logo{text-align:center;}
+.topheader .logo{text-align:center; padding-top:10px;}
 .col-centered{display:inherit; float:none; margin-bottom:25px;}
 .colfirst::after, .colsec::after, .colthird::after, .colfour::after{display:none;}
 .col-centered figure img, .whatsnewsection figure img{width:100%;}	
@@ -80,9 +98,10 @@
 .footleft{margin-bottom:20px;}
 #back-top{right:20px;}
 #back-top a , #back-top span{width:42px; height:42px;}
-.teamlist .teamcol span img{    object-fit: fill;     height: 100%;}
+.teamlist .teamcol span img{    object-fit: fill;     /*height: 100%;*/}
 .index-video-wrapper, #index-video{height:auto;}
 .bannertxt, .newstxt{padding-top:0px;}
+.bannertxt{margin:auto;}
 
 #quote-carousel .carousel-indicators {
         bottom: -37px !important;  
@@ -105,9 +124,9 @@
   display:block;
  }
  
- .slicknav_btn { background: #2785e7 url(../images/nav-button.png) no-repeat center; position: absolute; right: 30px; top: 10px; display: block; cursor: pointer; overflow: hidden; height: 30px; width: 40px; z-index: 999999; border-radius: 3px !important; }
+ .slicknav_btn { background: #000 url(../images/nav-button.png) no-repeat center; position: absolute; right: 10px; top: 10px; display: block; cursor: pointer; overflow: hidden; height: 30px; width: 40px; z-index: 999999; border-radius: 3px !important; }
 
-.slicknav_btn.slicknav_open { background: #2785e7 url(../images/close-nav-button.png) no-repeat center;/* Close icon */ color: #fff; z-index: 999999; }
+.slicknav_btn.slicknav_open { background: #000 url(../images/close-nav-button.png) no-repeat center;/* Close icon */ color: #fff; z-index: 999999; }
 
 .slicknav_menutxt { display: none; }
  .slicknav_parent.slicknav_open ul li a{padding-left:25px; color:#2785e7;}

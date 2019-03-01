@@ -33,9 +33,10 @@ ul {list-style: none; }
 .navright { position: relative; display: inline-block; padding-top:6px; float:right;}
 .navright ul { float: right; margin-top: 20px; position: relative; padding: 0; }
 .navright ul li { margin: 0px; display: inline-block; float: left; padding: 0px 14px 0px;}
-.navright li a { font-size:18px; color: #fff; display: block; padding-bottom:5px; font-weight:300;}
+.navright li a { font-size:18px; color: #fff; display: block; padding-bottom:5px; font-weight:300; border-bottom:4px solid transparent;}
 .navright li a:hover, .navright li.active a{color:#fff; border-bottom:4px solid #fff;} 
-.logo-sm {max-width:70%}
+.lang-sm{display:none !important;}
+	.lang-lg{display:block;}
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
