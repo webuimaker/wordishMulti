@@ -22,7 +22,7 @@ teams:
   - image: "/images/teams/naveen-square.jpg"
     name: "Naveen Sasidharan"
     pos: "Co-founder & COO"
-    email: "abhishek.jacob@worldish.se"
+    email: "naveen@worldish.se"
     phone: "46704-13 24 07"
     social:
       - icon: "/images/linkedin-icon.png"
@@ -30,7 +30,31 @@ teams:
       - icon: "/images/twit-icon.png"
         link:  
       - icon: "/images/fbicon.png"
+        link: 
+  - image: "/images/teams/oscar-andersson.jpg"
+    name: "Oscar Andersson"
+    pos: "Legal Counsel"
+    email: "oscar@worldish.se"
+    phone: "46704217211"
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link: "https://www.linkedin.com/in/carl-oscar-andersson-95a255126/"
+      - icon: "/images/twit-icon.png"
         link:  
+      - icon: "/images/fbicon.png"
+        link:  
+  - image: "/images/teams/klara.jpg"
+    name: "Klara Gelin"
+    pos: "Marketing & Sales Executive"
+    email: "klara@worldish.se"
+    phone: "46703805292"
+    social:
+      - icon: "/images/linkedin-icon.png"
+        link: "https://www.linkedin.com/in/klara-gelin-53b011120/"
+      - icon: "/images/twit-icon.png"
+        link:  
+      - icon: "/images/fbicon.png"
+        link:
   - image: "/images/teams/oskar-aagaard.jpg"
     name: "Oskar Aagaard Franssont"
     pos: "Lead Developer"
@@ -54,31 +78,7 @@ teams:
       - icon: "/images/twit-icon.png"
         link:  
       - icon: "/images/fbicon.png"
-        link:  
-  - image: "/images/teams/klara.jpg"
-    name: "Klara Gelin"
-    pos: "Marketing & Sales Executive"
-    email: "klara@worldish.se"
-    phone: "46703805292"
-    social:
-      - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/in/klara-gelin-53b011120/"
-      - icon: "/images/twit-icon.png"
-        link:  
-      - icon: "/images/fbicon.png"
-        link: 
-  - image: "/images/teams/oscar-andersson.jpg"
-    name: "Oscar Andersson"
-    pos: "Legal Counsel"
-    email: "oscar@worldish.se"
-    phone: "46704217211"
-    social:
-      - icon: "/images/linkedin-icon.png"
-        link: "https://www.linkedin.com/in/carl-oscar-andersson-95a255126/"
-      - icon: "/images/twit-icon.png"
-        link:  
-      - icon: "/images/fbicon.png"
-        link: 
+        link:     
   - image: "/images/teams/Hadeel.jpg"
     name: "Hadeel Ali"
     pos: "Product Specialist"

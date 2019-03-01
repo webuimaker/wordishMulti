@@ -10,7 +10,7 @@
 		
 		<div class="teamlist">
 			<div class="row">
-				{% for teamList in {{site.data.[page.lang].team.teams}} limit: 8 %}
+				{% for teamList in {{site.data.[page.lang].team.teams}} limit: 4 %}
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="teamcol">
 						<figure> <span><img src="{{site.baseurl}}{{teamList.image}}" alt=""></span></figure>

@@ -25,7 +25,7 @@
        <div class="bannercontent">
        	  <div class="bannermain {% if page.bannerSM == 'true' %} small-banner {% endif %}">
           	 <div class="topheader">
-                    <div class="col-xs-5 col-sm-2 col-md-2 logo"><a href="{{ page.url | relative_url }}"><img src="{{site.baseurl}}/images/logo.png" alt=""></a></div>
+                    <div class="col-xs-5 col-sm-2 col-md-2 logo"><a href="{{ page.url | relative_url }}"><img src="{{site.baseurl}}/images/logo.png" alt="" {% if  site.data.[page.lang].banner.banners.[curPage].video %} class="logo-sm" {% endif %}></a></div>
                     <nav class="col-xs-5 col-sm-10 col-md-10 col-lg-10">
 					    <div class="selectlang">
 							<div class="input-prepend input-append">
@@ -67,7 +67,7 @@
        </div> 
 		{% if  site.data.[page.lang].banner.banners.[curPage].video %}
 			<button onclick="toggleMute();" class="sound-toggle">
-				<i class="fa fa-pause"></i>
+				<i class="fa fa-volume-off"></i>
 			</button>
 		{% endif %}
        </div> 

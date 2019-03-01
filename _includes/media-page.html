@@ -21,12 +21,12 @@
 	</div>
 	<div class="container-fluid colorone">
 		<div class="container">
-			<div class="row teamlist">
+			<div class="row teamlist media">
 				{% for default in {{site.data.[page.lang].media.medias }}   %}
 				
 					<div class="col-xs-12 col-sm-12 col-md-4 post-cont moreBox">
 						<div class="newscol">
-							<figure><span><img src="{{site.baseurl}}{{default.image}}" alt=""></span></figure>
+							<figure><img src="{{site.baseurl}}{{default.image}}" alt=""></figure>
 							<div class="blogtitle">
 								<h3>{{ default.title }}</h3>
 								<div class="post-cont">{{ default.comments | strip_html | truncatewords:50 }}
