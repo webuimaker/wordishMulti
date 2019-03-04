@@ -31,7 +31,7 @@
 
 .slicknav_menu ul ul{ margin: 0 0 10px 0 !important;  }
 
-.slicknav_menu ul li { float: none; font-size: 14px; margin: 0; position: relative; list-style: none; width:100%;  border-bottom: 1px solid #ccc;}
+.slicknav_menu ul li { float: none; font-size: 14px; margin: 0; position: relative; list-style: none; width:100%;  /*border-bottom: 1px solid #ccc;*/}
 
 .slicknav_menu ul li:last-child {border:0;}
 
